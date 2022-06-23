@@ -8,31 +8,19 @@
 - Trello, Slack 앱을 활용해 Scrum 방식으로 진행
 ![trello](https://user-images.githubusercontent.com/72085261/109430747-3c209600-7a46-11eb-9a5a-49780b91f427.gif)
 
-## 담당 기능
-- 백엔드 팀원들과 함께 데이터베이스 모델링
-![Freitag_DB_20210228_59_19](https://user-images.githubusercontent.com/72085261/109441151-d1884e00-7a77-11eb-9ede-d3052f2bcc19.png)
-- 팀원들과 함께 models.py 작성
-- 상품 데이터베이스 CSV 파일 작성
-- CSV파일을 데이터베이스에 업로드하기위해 db_uploader.py 파일 작성
-- 저작권으로인해 직접 찍은 사진 이미지편집
-- 상품 카테고리별 리스트 나열 기능 구현
-![typelist](https://user-images.githubusercontent.com/72085261/109441202-f2e93a00-7a77-11eb-8371-e303c2ffd95b.gif)
-- 디테일 페이지에 각 상품별 description과 모델별 recommendation list를 전달해주는 기능 구현
-![detail](https://user-images.githubusercontent.com/72085261/109441299-465b8800-7a78-11eb-988e-5f93193d4647.gif)
-- 컬러, 사이즈별 필터링 기능 구현
-![filtering](https://user-images.githubusercontent.com/72085261/109441319-54110d80-7a78-11eb-8048-68dd54645919.gif)
-- 백엔드repo내 README.md 작성
-
 ## 백엔드 전체 구현 목록
 #### 회원가입 & 로그인
 - Bcrypt를 활용한 비밀번호 암호화
 - JWT를 활용한 Access Token 발행
 - 로그인 @decorator 
 #### 상품 리스트 나열
-- 가방 타입 내의 모델별 리스트 나열 기능
-- 모델별 상세페이지 리스트 나열 & detail 정보 전달
-- 모델별 추천 상품 목록 전달
-- 컬러, 사이즈 별 상품 필터링
+- 가방 타입 내의 모델별 리스트 나열 기능 <br>
+![typelist](https://user-images.githubusercontent.com/72085261/109441202-f2e93a00-7a77-11eb-8371-e303c2ffd95b.gif)<br>
+- 모델별 상세페이지 리스트 나열 & detail 정보 전달 & 추천 상품 목록 전달<br>
+![detail](https://user-images.githubusercontent.com/72085261/109441299-465b8800-7a78-11eb-988e-5f93193d4647.gif)<br>
+- 컬러, 사이즈 별 상품 필터링<br>
+![filtering](https://user-images.githubusercontent.com/72085261/109441319-54110d80-7a78-11eb-8048-68dd54645919.gif)<br>
+
 #### 장바구니 & 결제
 - 장바구니에 상품 추가
 - 장바구니에 있는 상품 삭제
