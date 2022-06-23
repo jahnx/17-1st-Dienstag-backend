@@ -1,29 +1,14 @@
 # Dienstag
-![main](https://user-images.githubusercontent.com/72085261/109430603-8ce3bf00-7a45-11eb-8123-e9eae234e756.gif)
-
-'디엔스탁'은 학습 목적으로 제작된 '프라이탁' 홈페이지를 모티브로 구현한 프로젝트입니다. 재활용 소재로 만든 가방과 악세사리등을 만들고 각각의 제품들은 모두 다른 디자인이라는 특징을 가진 프라이탁 쇼핑몰의 기본적인 기능들을 구현했습니다. 사용된 이미지는 전부 직접 찍고 편집한 사진들임을 밝힙니다.
-
-## 프로젝트 기간
-2021.02.15(월) ~ 2021.02.26(금)
-
-## 팀 구성
-### 프론트엔드 (<a href="https://github.com/wecode-bootcamp-korea/17-1st-Dienstag-frontend">Repo</a>)
-- 강민지(PM) <a href="https://github.com/awaji0829">GitHub</a>
-- 변미현 <a href="https://github.com/cocoball200">GitHub</a>
-### 백엔드
-- 김하성 <a href="https://github.com/markkimjr">GitHub</a>
-- 안재이 <a href="https://github.com/jaeyiahn">GitHub</a> / <a href="https://velog.io/@jaeyiahn/1%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-DIENSTAG">후기</a>
-- 허정윤 <a href="https://github.com/banana1019">GitHub</a>
-
-## 사용한 기술 스택
-- 프론트엔드: html, css, jsx, react, contextAPI
-- 백엔드: Python, Django, MySQL, AQueryTool, Git
+- '디엔스탁'은 '프라이탁' 홈페이지를 모티브로 구현한 프로젝트입니다. 쇼핑몰의 기본적인 기능들을 구현했습니다. 사용된 이미지는 전부 직접 찍고 편집한 사진들임을 밝힙니다.
+- 개발 기간: 2021.02.15 ~ 2021.02.26
+- 개발 인원:  Back 3명 / Front 2명
+- 기술 스택: Python, Django, MySQL, AQueryTool, Git
 
 ## 프로젝트 진행 방식
 - Trello, Slack 앱을 활용해 Scrum 방식으로 진행
 ![trello](https://user-images.githubusercontent.com/72085261/109430747-3c209600-7a46-11eb-9a5a-49780b91f427.gif)
 
-## 내가 한 일들
+## 담당 기능
 - 백엔드 팀원들과 함께 데이터베이스 모델링
 ![Freitag_DB_20210228_59_19](https://user-images.githubusercontent.com/72085261/109441151-d1884e00-7a77-11eb-9ede-d3052f2bcc19.png)
 - 팀원들과 함께 models.py 작성
@@ -38,7 +23,7 @@
 ![filtering](https://user-images.githubusercontent.com/72085261/109441319-54110d80-7a78-11eb-8048-68dd54645919.gif)
 - 백엔드repo내 README.md 작성
 
-## 백엔드 구현 목록
+## 백엔드 전체 구현 목록
 #### 회원가입 & 로그인
 - Bcrypt를 활용한 비밀번호 암호화
 - JWT를 활용한 Access Token 발행
